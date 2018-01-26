@@ -49,5 +49,5 @@ $ docker run -d my-nuster
 ## Directly via bind mount
 
 ```console
-$ docker run -d --name nuster-running -v /path/to/nuster.cfg:/etc/nuster/nuster.cfg:ro nuster:1.7
+$ docker run -d --name nuster-running -v /path/to/nuster.cfg:/etc/nuster/nuster.cfg:ro nuster/nuster:1.7
 ```
