@@ -1,18 +1,18 @@
 # Supported tags and respective `Dockerfile` links
 
--       [`1.7.9.3`, `1.7.9`, `1.7`, `latest` (*debian/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster)
--       [`1.7.9.3-alpine`, `1.7.9-alpine`, `1.7-alpine` (*alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster)
+- [`1.7.9.3`, `1.7.9`, `1.7`, `latest` (*debian/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster)
+- [`1.7.9.3-alpine`, `1.7.9-alpine`, `1.7-alpine` (*alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster)
 
 # Quick reference
 
--       **Where to get help**:  
-        [Github issues](https://github.com/jiangwenyuan/nuster/issues)
+- **Where to get help**:  
+  [Github issues](https://github.com/jiangwenyuan/nuster/issues)
 
--       **Where to file issues**:  
-        [https://github.com/jiangwenyuan/docker-nuster/issues](https://github.com/jiangwenyuan/docker-nuster/issues)
+- **Where to file issues**:  
+  [https://github.com/jiangwenyuan/docker-nuster/issues](https://github.com/jiangwenyuan/docker-nuster/issues)
 
--       **Maintained by**:  
-        [nuster](https://github.com/jiangwenyuan)
+- **Maintained by**:  
+  [nuster](https://github.com/jiangwenyuan)
 
 # What is nuster?
 
