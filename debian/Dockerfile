@@ -1,6 +1,6 @@
 FROM debian:jessie-backports
 
-ARG NUSTER_VERSION=1.7.9.3
+ARG NUSTER_VERSION=1.7.9.4
 ARG NUSTER_DL_URL=https://github.com/jiangwenyuan/nuster/releases/download/v$NUSTER_VERSION/nuster-$NUSTER_VERSION.tar.gz
 ARG NUSTER_DL_FILE=nuster.tar.gz
 ARG NUSTER_SRC_DIR=/tmp/nuster
