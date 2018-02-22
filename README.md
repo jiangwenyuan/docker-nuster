@@ -1,7 +1,7 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`1.7.9.4`, `1.7.9`, `1.7`, `latest` (*debian/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/470e029cf45731e828f6dd045c5909b2ce8bc7a5/debian/Dockerfile)
-- [`1.7.9.4-alpine`, `1.7.9-alpine`, `1.7-alpine` (*alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/470e029cf45731e828f6dd045c5909b2ce8bc7a5/alpine/Dockerfile)
+- [`1.7.9.5`, `1.7.9`, `1.7`, `latest` (*debian/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/470e029cf45731e828f6dd045c5909b2ce8bc7a5/debian/Dockerfile)
+- [`1.7.9.5-alpine`, `1.7.9-alpine`, `1.7-alpine` (*alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/470e029cf45731e828f6dd045c5909b2ce8bc7a5/alpine/Dockerfile)
 
 # Quick reference
 
