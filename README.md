@@ -2,7 +2,7 @@
 
 - [`1.7.9.5`, `1.7.9`, `1.7`, `latest` (*debian/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/30fdeb1800a885c4ef1c67dfbb5b3906c7d05e10/debian/Dockerfile)
 - [`1.7.9.5-alpine`, `1.7.9-alpine`, `1.7-alpine` (*alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/30fdeb1800a885c4ef1c67dfbb5b3906c7d05e10/alpine/Dockerfile)
-- [`16.04`, `xenial` (*xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/30fdeb1800a885c4ef1c67dfbb5b3906c7d05e10/xenial/Dockerfile)
+- [`1.7.9.5-xenial`, `1.7.9-xenial`, `1.7-xenial` (*xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/30fdeb1800a885c4ef1c67dfbb5b3906c7d05e10/xenial/Dockerfile)
 
 # Quick reference
 
