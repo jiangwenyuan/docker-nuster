@@ -1,8 +1,8 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`1.7.9.5`, `1.7.9`, `1.7`, `latest` (*debian/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/debian/Dockerfile)
-- [`1.7.9.5-alpine`, `1.7.9-alpine`, `1.7-alpine` (*alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/alpine/Dockerfile)
-- [`1.7.9.5-xenial`, `1.7.9-xenial`, `1.7-xenial` (*xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/xenial/Dockerfile)
+- [`1.7.9.6`, `1.7.9`, `1.7`, `latest` (*debian/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/debian/Dockerfile)
+- [`1.7.9.6-alpine`, `1.7.9-alpine`, `1.7-alpine` (*alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/alpine/Dockerfile)
+- [`1.7.9.6-xenial`, `1.7.9-xenial`, `1.7-xenial` (*xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/xenial/Dockerfile)
 
 # Quick reference
 
@@ -25,7 +25,7 @@
 ## Create a `Dockerfile`
 
 ```Dockerfile
-FROM nuster:1.7.9
+FROM nuster/nuster
 COPY nuster.cfg /etc/nuster/nuster.cfg
 ```
 
@@ -50,5 +50,5 @@ $ docker run -d my-nuster
 ## Directly via bind mount
 
 ```console
-$ docker run -d -p 8080:8080 -v /path/to/nuster.cfg:/etc/nuster/nuster.cfg:ro nuster/nuster:1.7
+$ docker run -d -p 8080:8080 -v /path/to/nuster.cfg:/etc/nuster/nuster.cfg:ro nuster/nuster
 ```
