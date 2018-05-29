@@ -4,8 +4,8 @@
 - [`1.8.8.1-alpine`, `1.8.8-alpine`, `1.8-alpine`, `alpine` (*alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/alpine/Dockerfile)
 - [`1.8.8.1-xenial`, `1.8.8-xenial`, `1.8-xenial`, `xenial` (*xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/xenial/Dockerfile)
 - [`1.7.11.1`, `1.7.11`, `1.7`, `latest` (*debian/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/v1.7/jessie/Dockerfile)
-- [`1.7.11.1-alpine`, `1.7.11-alpine`, `1.7-alpine`, `alpine` (*alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/v1.7/alpine/Dockerfile)
-- [`1.7.11.1-xenial`, `1.7.11-xenial`, `1.7-xenial`, `xenial` (*xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/v1.7/xenial/Dockerfile)
+- [`1.7.11.1-alpine`, `1.7.11-alpine`, `1.7-alpine` (*alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/v1.7/alpine/Dockerfile)
+- [`1.7.11.1-xenial`, `1.7.11-xenial`, `1.7-xenial` (*xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/v1.7/xenial/Dockerfile)
 
 # Quick reference
 
