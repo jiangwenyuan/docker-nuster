@@ -1,6 +1,6 @@
-FROM debian:jessie-backports
+FROM debian:stretch-slim
 
-ARG NUSTER_VERSION=1.8.8.1
+ARG NUSTER_VERSION=1.8.8.2
 ARG NUSTER_DL_URL=https://github.com/jiangwenyuan/nuster/releases/download/v$NUSTER_VERSION/nuster-$NUSTER_VERSION.tar.gz
 ARG NUSTER_DL_FILE=nuster.tar.gz
 ARG NUSTER_SRC_DIR=/tmp/nuster
@@ -12,6 +12,7 @@ RUN set -x \
                 liblua5.3-dev \
                 libpcre3-dev \
                 libssl-dev \
+		zlib1g-dev \
         ' \
         && tools=' \
                 ca-certificates \
@@ -20,7 +21,7 @@ RUN set -x \
         ' \
         && runtimes=' \
                 libpcre3 \
-                libssl1.0.0 \
+                libssl1.1 \
                 liblua5.3-0 \
         ' \
         && apt-get update \
