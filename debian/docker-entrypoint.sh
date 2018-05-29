@@ -7,7 +7,7 @@ fi
 
 if [ "$1" = 'haproxy' ]; then
   shift
-  set -- "haproxy-systemd-wrapper" -p /run/nuster.pid -db "$@"
+  set -- haproxy -W -db "$@"
 fi
 
 exec "$@"
