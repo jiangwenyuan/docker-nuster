@@ -1,11 +1,12 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`1.8.8.3`, `1.8.8`, `1.8`, `latest` (*stretch/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/stretch/Dockerfile)
-- [`1.8.8.3-alpine`, `1.8.8-alpine`, `1.8-alpine`, `alpine` (*alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/alpine/Dockerfile)
-- [`1.8.8.3-xenial`, `1.8.8-xenial`, `1.8-xenial`, `xenial` (*xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/xenial/Dockerfile)
-- [`1.7.11.3`, `1.7.11`, `1.7`, `latest` (*jessie/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/v1.7/jessie/Dockerfile)
-- [`1.7.11.3-alpine`, `1.7.11-alpine`, `1.7-alpine` (*alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/v1.7/alpine/Dockerfile)
-- [`1.7.11.3-xenial`, `1.7.11-xenial`, `1.7-xenial` (*xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/v1.7/xenial/Dockerfile)
+- [`2.0.0.18`, `latest` (*stretch/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/stretch/Dockerfile)
+- [`1.1.1.18` (*stretch/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/v1.8/stretch/Dockerfile)
+- [`1.1.1.18-alpine` (*alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/v1.8/alpine/Dockerfile)
+- [`1.1.1.18-xenial` (*xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/v1.8/xenial/Dockerfile)
+- [`1.0.0.17` (*jessie/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/v1.7/jessie/Dockerfile)
+- [`1.0.0.17-alpine` (*alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/v1.7/alpine/Dockerfile)
+- [`1.0.0.17-xenial` (*xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/v1.7/xenial/Dockerfile)
 
 # Quick reference
 
