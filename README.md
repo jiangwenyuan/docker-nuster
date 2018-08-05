@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`2.0.0.18`, `latest` (*stretch/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/stretch/Dockerfile)
+- [`2.0.1.18`, `latest` (*stretch/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/stretch/Dockerfile)
 - [`alpine` (*alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/alpine/Dockerfile)
 - [`xenial` (*xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/xenial/Dockerfile)
 - [`1.1.1.18` (*stretch/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/v1.8/stretch/Dockerfile)
