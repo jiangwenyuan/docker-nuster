@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.8
 
 ARG NUSTER_VERSION=2.0.2.18
 ARG NUSTER_DL_URL=https://github.com/jiangwenyuan/nuster/releases/download/v$NUSTER_VERSION/nuster-$NUSTER_VERSION.tar.gz
