@@ -1,4 +1,4 @@
-Latest stable releast: 3.0.0.19
+Latest stable releast: 2.0.10.18
 
 # Supported tags and respective `Dockerfile` links
 
