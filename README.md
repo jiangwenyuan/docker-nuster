@@ -1,8 +1,10 @@
-Latest stable releast: v2.0.11.18
+* latest: build from github master branch
+* stable: build from the latest stable release
 
 # Supported tags and respective `Dockerfile` links
 
-- [`3.1.0.19-stretch`, `3.1.0.19`, `latest` (*H1.9/stretch/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/H1.9/stretch/Dockerfile)
+- [`latest` (*/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/Dockerfile)
+- [`3.1.0.19-stretch`, `3.1.0.19`, `stable` (*H1.9/stretch/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/H1.9/stretch/Dockerfile)
 - [`3.1.0.19-alpine` (*H1.9/alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/H1.9/alpine/Dockerfile)
 - [`3.1.0.19-xenial` (*H1.9/xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/H1.9/xenial/Dockerfile)
 - [`3.1.0.19-centos7` (*H1.9/centos7/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/H1.9/centos7/Dockerfile)
