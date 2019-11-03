@@ -3,6 +3,8 @@ FROM debian:stretch-slim
 ARG NUSTER_SRC_GIT=https://github.com/jiangwenyuan/nuster.git
 ARG NUSTER_SRC_DIR=/tmp/nuster
 
+ADD https://api.github.com/repos/jiangwenyuan/nuster/git/refs/heads/master tmp.json
+
 RUN set -x \
         && buildDeps=' \
                 gcc \
@@ -45,7 +47,7 @@ RUN set -x \
         && cp -R $NUSTER_SRC_DIR/examples/errorfiles /etc/nuster/errors \
         && rm -rf /tmp/nuster* \
         \
-        && apt-get purge -y --auto-remove $buildDeps
+        && apt-get purge -y --auto-remove $buildDeps && rm tmp.json
 
 COPY docker-entrypoint.sh /
 ENTRYPOINT ["/docker-entrypoint.sh"]
