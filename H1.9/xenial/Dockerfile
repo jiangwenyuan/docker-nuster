@@ -1,6 +1,6 @@
 FROM ubuntu:xenial
 
-ARG NUSTER_VERSION=3.2.1.19
+ARG NUSTER_VERSION=3.2.2.19
 ARG NUSTER_DL_URL=https://github.com/jiangwenyuan/nuster/archive/v$NUSTER_VERSION.tar.gz
 ARG NUSTER_DL_FILE=nuster.tar.gz
 ARG NUSTER_SRC_DIR=/tmp/nuster
