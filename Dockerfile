@@ -39,6 +39,7 @@ RUN set -x \
                 USE_PCRE=1 \
                 PCREDIR= \
                 USE_ZLIB=1 \
+                IGNOREGIT=1 \
         ' \
         && make -C $NUSTER_SRC_DIR -j "$(nproc)" all $makeOpts \
         && make -C $NUSTER_SRC_DIR install-bin $makeOpts \
