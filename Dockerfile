@@ -32,7 +32,7 @@ RUN set -x \
         && ls $NUSTER_SRC_DIR \
         \
         && makeOpts=' \
-                TARGET=linux2628 \
+                TARGET=linux-glibc \
                 USE_LUA=1 \
                 LUA_INC=/usr/include/lua5.3 \
                 USE_OPENSSL=1 \
