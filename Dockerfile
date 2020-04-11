@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM debian:buster-slim
 
 ARG NUSTER_SRC_GIT=https://github.com/jiangwenyuan/nuster.git
 ARG NUSTER_SRC_DIR=/tmp/nuster

@@ -4,7 +4,11 @@
 # Supported tags and respective `Dockerfile` links
 
 - [`latest` (*/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/Dockerfile)
-- [`3.2.4.19-stretch`, `3.2.4.19`, `stable` (*H1.9/stretch/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/H1.9/stretch/Dockerfile)
+- [`5.0.0.21-stretch`, `5.0.0.21`, `stable` (*H2.1/stretch/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/H2.1/buster/Dockerfile)
+- [`5.0.0.21-alpine` (*H1.9/alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/H1.9/alpine/Dockerfile)
+- [`5.0.0.21-xenial` (*H1.9/xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/H1.9/xenial/Dockerfile)
+- [`5.0.0.21-centos7` (*H1.9/centos7/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/H1.9/centos7/Dockerfile)
+- [`3.2.4.19-stretch`, `3.2.4.19`, (*H1.9/stretch/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/H1.9/stretch/Dockerfile)
 - [`3.2.4.19-alpine` (*H1.9/alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/H1.9/alpine/Dockerfile)
 - [`3.2.4.19-xenial` (*H1.9/xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/H1.9/xenial/Dockerfile)
 - [`3.2.4.19-centos7` (*H1.9/centos7/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/H1.9/centos7/Dockerfile)
