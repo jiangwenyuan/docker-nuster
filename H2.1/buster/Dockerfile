@@ -20,7 +20,7 @@ RUN set -x \
                 wget \
         ' \
         && runtimes=' \
-                libpcre2 \
+                libpcre3 \
                 libssl1.1 \
                 liblua5.3-0 \
         ' \
