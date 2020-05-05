@@ -20,6 +20,7 @@ RUN set -x \
                 tar \
                 zlib-dev \
         \
+        && apk add --no-cache pcre lua5.3 \
         && mkdir -p $NUSTER_SRC_DIR \
         \
         && wget -O /tmp/$NUSTER_DL_FILE $NUSTER_DL_URL \
