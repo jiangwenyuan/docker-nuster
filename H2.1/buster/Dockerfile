@@ -1,6 +1,6 @@
 FROM debian:buster-slim
 
-ARG NUSTER_VERSION=5.0.7.21
+ARG NUSTER_VERSION=5.0.8.21
 ARG NUSTER_DL_URL=https://github.com/jiangwenyuan/nuster/archive/v$NUSTER_VERSION.tar.gz
 ARG NUSTER_DL_FILE=nuster.tar.gz
 ARG NUSTER_SRC_DIR=/tmp/nuster
