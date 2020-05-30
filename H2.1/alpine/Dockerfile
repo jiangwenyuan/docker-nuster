@@ -18,6 +18,7 @@ RUN set -x \
                 pcre-dev \
                 readline-dev \
                 tar \
+                libexecinfo-dev \
                 zlib-dev \
         \
         && apk add --no-cache pcre lua5.3 \
