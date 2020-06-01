@@ -28,7 +28,7 @@ RUN set -x \
         && tar -xvf /tmp/$NUSTER_DL_FILE -C $NUSTER_SRC_DIR --strip-components=1 \
         \
         && makeOpts=" \
-                TARGET=linux-glibc \
+                TARGET=linux-musl \
                 USE_LUA=1 \
                 LUA_INC=/usr/include/lua5.3 \
                 LUA_LIB=/usr/lib/lua5.3 \
