@@ -1,6 +1,6 @@
 FROM alpine:3.11
 
-ARG NUSTER_VERSION=5.0.11.21
+ARG NUSTER_VERSION=5.0.12.21
 ARG NUSTER_DL_URL=https://github.com/jiangwenyuan/nuster/archive/v$NUSTER_VERSION.tar.gz
 ARG NUSTER_DL_FILE=nuster.tar.gz
 ARG NUSTER_SRC_DIR=/tmp/nuster
@@ -18,7 +18,6 @@ RUN set -x \
                 pcre-dev \
                 readline-dev \
                 tar \
-                libexecinfo-dev \
                 zlib-dev \
         \
         && apk add --no-cache pcre lua5.3 \
