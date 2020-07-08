@@ -12,7 +12,7 @@ RUN set -x \
                 liblua5.3-dev \
                 libpcre3-dev \
                 libssl-dev \
-		zlib1g-dev \
+                zlib1g-dev \
         ' \
         && tools=' \
                 ca-certificates \
