@@ -1,23 +1,31 @@
-FROM ubuntu:xenial
+FROM debian:buster-slim
 
-ARG NUSTER_VERSION=5.2.0.22
+ARG NUSTER_VERSION=5.2.1.22
 ARG NUSTER_DL_URL=https://github.com/jiangwenyuan/nuster/archive/v$NUSTER_VERSION.tar.gz
 ARG NUSTER_DL_FILE=nuster.tar.gz
 ARG NUSTER_SRC_DIR=/tmp/nuster
 
-RUN DEBIAN_FRONTEND=noninteractive apt-get update \
-    && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
-        gcc \
-        libc6-dev \
-        libpcre3-dev \
-        liblua5.3-dev \
-        libssl-dev \
-        ca-certificates \
-        make \
-        wget \
-        libpcre3 \
-        libssl1.0.0 \
-        liblua5.3-0 \
+RUN set -x \
+        && buildDeps=' \
+                gcc \
+                libc6-dev \
+                liblua5.3-dev \
+                libpcre3-dev \
+                libssl-dev \
+                zlib1g-dev \
+        ' \
+        && tools=' \
+                ca-certificates \
+                make \
+                wget \
+        ' \
+        && runtimes=' \
+                libpcre3 \
+                libssl1.1 \
+                liblua5.3-0 \
+        ' \
+        && apt-get update \
+        && apt-get install -y --no-install-recommends $buildDeps $tools $runtimes \
         && rm -r /var/lib/apt/lists/* \
         \
         && mkdir -p $NUSTER_SRC_DIR \
