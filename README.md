@@ -2,14 +2,12 @@
 # Supported tags and respective `Dockerfile` links
 
 - [`master` (*/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/Dockerfile)
-- [`5.2-buster`, `5.2`, `stable`, `latest` (*5.2/stretch/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/5.2/buster/Dockerfile)
+- [`5.3-debian`, `5.3`, `5.3.0`, `5.3.0.23`, `latest` (*5.3/debian/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/5.3/debian/Dockerfile)
+- [`5.3-alpine` (*5.3/alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/5.3/alpine/Dockerfile)
+- [`5.3-ubuntu` (*5.3/ubuntu/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/5.3/ubuntu/Dockerfile)
+- [`5.2-debian`, `5.2`, `5.2.5`, `5.2.5.22`, `stable` (*5.2/debian/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/5.2/debian/Dockerfile)
 - [`5.2-alpine` (*5.2/alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/5.2/alpine/Dockerfile)
-- [`5.2-xenial` (*5.2/xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/5.2/xenial/Dockerfile)
-- [`5.2-centos7` (*5.2/centos7/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/5.2/centos7/Dockerfile)
-- [`5.1-buster`, `5.1` (*5.1/stretch/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/5.1/buster/Dockerfile)
-- [`5.1-alpine` (*5.1/alpine/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/5.1/alpine/Dockerfile)
-- [`5.1-xenial` (*5.1/xenial/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/5.1/xenial/Dockerfile)
-- [`5.1-centos7` (*5.1/centos7/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/5.1/centos7/Dockerfile)
+- [`5.2-ubuntu` (*5.2/ubuntu/Dockerfile*)](https://github.com/jiangwenyuan/docker-nuster/blob/master/5.2/ubuntu/Dockerfile)
 
 # Quick reference
 
