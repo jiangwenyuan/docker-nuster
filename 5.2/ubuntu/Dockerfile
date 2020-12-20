@@ -13,9 +13,11 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
         liblua5.3-dev \
         libssl-dev \
         ca-certificates \
+        zlib1g-dev \
         make \
         wget \
         libpcre3 \
+        zlib1g \
         libssl1.1 \
         liblua5.3-0 \
         && rm -r /var/lib/apt/lists/* \
@@ -40,7 +42,9 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
         && cp -R $NUSTER_SRC_DIR/examples/errorfiles /etc/nuster/errors \
         && rm -rf /tmp/nuster* \
         \
-        && apt-get purge -y --auto-remove $buildDeps
+        && apt-get purge -y --auto-remove gcc make libc6-dev libssl-dev zlib1g-dev liblua5.3-dev \
+        && apt-get clean \
+        && rm -rf /var/lib/apt/lists/*
 
 COPY docker-entrypoint.sh /
 ENTRYPOINT ["/docker-entrypoint.sh"]
