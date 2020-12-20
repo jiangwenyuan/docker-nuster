@@ -16,7 +16,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
         make \
         wget \
         libpcre3 \
-        libssl1.0.0 \
+        libssl1.1 \
         liblua5.3-0 \
         && rm -r /var/lib/apt/lists/* \
         \
